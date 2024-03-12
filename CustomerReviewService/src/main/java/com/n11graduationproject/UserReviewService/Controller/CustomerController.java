@@ -2,7 +2,11 @@ package com.n11graduationproject.UserReviewService.Controller;
 
 import com.n11graduationproject.UserReviewService.Controller.Contract.CustomerControllerContract;
 import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.UserReviewService.General.RestResponse;
 import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,14 +18,42 @@ public class CustomerController {
     private final CustomerControllerContract contract;
 
     @PostMapping
-    public ResponseEntity<CustomerDTO> save(@RequestBody CustomerSaveRequest customerSaveRequest){
+    public ResponseEntity<RestResponse<CustomerDTO>> save(@RequestBody @Valid CustomerSaveRequest customerSaveRequest){
         CustomerDTO customerDto = contract.save(customerSaveRequest);
-        return ResponseEntity.ok(customerDto);
+        RestResponse<CustomerDTO> response = RestResponse.of(customerDto);
+        response.setMessages("Customer created successfully.");
+        return ResponseEntity.ok(response);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> delete(@PathVariable Long id){
+    public ResponseEntity<RestResponse<String>> delete(@PathVariable Long id){
         contract.delete(id);
-        return ResponseEntity.ok("Customer has deleted successfully.");
+        RestResponse<String> response = RestResponse.of(null);
+        response.setMessages("Customer deleted successfully.");
+        return ResponseEntity.ok(response);
+    }
+
+    @PatchMapping("/update-name-{id}")
+    public ResponseEntity<RestResponse<CustomerDTO>> updateName(@PathVariable Long id,@RequestBody @NotBlank String name){
+        CustomerDTO customerDTO = contract.updateName(id, name);
+        RestResponse<CustomerDTO> response = RestResponse.of(customerDTO);
+        response.setMessages("Customer name updated successfully.");
+        return ResponseEntity.ok(response);
+    }
+
+    @PatchMapping("/update-surname-{id}")
+    public ResponseEntity<RestResponse<CustomerDTO>> updateSurname(@PathVariable Long id,@RequestBody @NotBlank String surname){
+        CustomerDTO customerDTO = contract.updateSurname(id, surname);
+        RestResponse<CustomerDTO> response = RestResponse.of(customerDTO);
+        response.setMessages("Customer surname updated successfully.");
+        return ResponseEntity.ok(response);
+    }
+
+    @PatchMapping("/update-email-{id}")
+    public ResponseEntity<RestResponse<CustomerDTO>> updateEmail(@PathVariable Long id,@RequestBody @Email@NotBlank String email){
+        CustomerDTO customerDTO = contract.updateEmail(id, email);
+        RestResponse<CustomerDTO> response = RestResponse.of(customerDTO);
+        response.setMessages("Customer email updated successfully.");
+        return ResponseEntity.ok(response);
     }
 }

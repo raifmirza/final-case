@@ -7,6 +7,6 @@ public interface ReviewControllerContract {
     public ReviewDTO save(ReviewSaveRequest reviewSaveRequest);
 
     public void delete(Long id);
-    public ReviewDTO updateComment(Long id,String comment);
+    public ReviewDTO updateReview(Long id,String comment);
     public ReviewDTO updateScore(Long id,int score);
 }

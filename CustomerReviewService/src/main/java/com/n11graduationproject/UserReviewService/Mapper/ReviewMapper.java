@@ -26,15 +26,11 @@ public interface ReviewMapper {
         return score.getScore();
     }
 
-    @AfterMapping
-    default void updateReviewDTOAfter(Review review, ReviewDTO reviewDTO){
-
-    }
 
 
     @Mapping(target = "score",ignore = true)
     @Mapping(target = "customerID",ignore = true)
-    Review convertToEntity(ReviewSaveRequest reviewSaveRequest);
+    Review convertToEntity(ReviewSaveRequest reviewSaveRequest,@Context CustomerService customerService);
 
     @AfterMapping
     default void updateReviewAfter(ReviewSaveRequest reviewSaveRequest, @MappingTarget Review review, @Context CustomerService customerService){

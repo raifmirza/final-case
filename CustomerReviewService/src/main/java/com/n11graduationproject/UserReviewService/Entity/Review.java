@@ -19,6 +19,9 @@ public class Review {
     @Id
     private Long id;
 
+    @Column(name = "RESTAURANT_ID",nullable = false)
+    private Long restaurantId;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "CUSTOMER_ID",nullable = false)
     private Customer customerID;
