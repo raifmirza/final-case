@@ -11,8 +11,8 @@ import org.n11graduationproject.restaurantservice.Request.RestaurantSaveRequest;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-03-16T16:03:34+0300",
-    comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.10 (Oracle Corporation)"
+    date = "2024-03-17T22:32:13+0300",
+    comments = "version: 1.4.2.Final, compiler: javac, environment: Java 21.0.2 (Oracle Corporation)"
 )
 public class RestaurantMapperImpl implements RestaurantMapper {
 
