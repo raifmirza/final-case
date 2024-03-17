@@ -1,14 +1,10 @@
-package com.n11graduationproject.UserReviewService.Mapper;
+package com.n11graduationproject.CustomerReviewService.Mapper;
 
-import com.n11graduationproject.UserReviewService.DTO.ReviewDTO;
-import com.n11graduationproject.UserReviewService.Entity.Review;
-import com.n11graduationproject.UserReviewService.Enum.Score;
-import com.n11graduationproject.UserReviewService.Repository.CustomerRepository;
-import com.n11graduationproject.UserReviewService.Repository.ReviewRepository;
-import com.n11graduationproject.UserReviewService.Request.ReviewSaveRequest;
-import com.n11graduationproject.UserReviewService.Service.CustomerService;
-import com.n11graduationproject.UserReviewService.Service.ReviewService;
-import jakarta.persistence.MappedSuperclass;
+import com.n11graduationproject.CustomerReviewService.DTO.ReviewDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Review;
+import com.n11graduationproject.CustomerReviewService.Enum.Score;
+import com.n11graduationproject.CustomerReviewService.Request.ReviewSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Service.CustomerService;
 import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
 

@@ -1,4 +1,4 @@
-package com.n11graduationproject.UserReviewService.Enum;
+package com.n11graduationproject.CustomerReviewService.Enum;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

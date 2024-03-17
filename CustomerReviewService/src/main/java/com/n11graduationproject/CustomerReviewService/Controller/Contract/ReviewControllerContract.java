@@ -1,7 +1,7 @@
-package com.n11graduationproject.UserReviewService.Controller.Contract;
+package com.n11graduationproject.CustomerReviewService.Controller.Contract;
 
-import com.n11graduationproject.UserReviewService.DTO.ReviewDTO;
-import com.n11graduationproject.UserReviewService.Request.ReviewSaveRequest;
+import com.n11graduationproject.CustomerReviewService.DTO.ReviewDTO;
+import com.n11graduationproject.CustomerReviewService.Request.ReviewSaveRequest;
 
 import java.util.List;
 

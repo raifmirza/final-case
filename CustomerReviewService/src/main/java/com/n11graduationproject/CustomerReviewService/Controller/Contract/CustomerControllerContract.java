@@ -1,9 +1,8 @@
-package com.n11graduationproject.UserReviewService.Controller.Contract;
+package com.n11graduationproject.CustomerReviewService.Controller.Contract;
 
-import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
-import com.n11graduationproject.UserReviewService.Entity.Coordinate;
-import com.n11graduationproject.UserReviewService.Request.CoordinateUpdateRequest;
-import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
+import com.n11graduationproject.CustomerReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.CustomerReviewService.Request.CoordinateUpdateRequest;
+import com.n11graduationproject.CustomerReviewService.Request.CustomerSaveRequest;
 
 import java.util.List;
 

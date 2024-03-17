@@ -1,7 +1,7 @@
-package com.n11graduationproject.UserReviewService.Service;
+package com.n11graduationproject.CustomerReviewService.Service;
 
-import com.n11graduationproject.UserReviewService.Entity.Review;
-import com.n11graduationproject.UserReviewService.Repository.ReviewRepository;
+import com.n11graduationproject.CustomerReviewService.Entity.Review;
+import com.n11graduationproject.CustomerReviewService.Repository.ReviewRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

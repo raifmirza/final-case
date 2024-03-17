@@ -1,7 +1,7 @@
-package com.n11graduationproject.UserReviewService.Controller;
+package com.n11graduationproject.CustomerReviewService.Controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.n11graduationproject.UserReviewService.General.RestResponse;
+import com.n11graduationproject.CustomerReviewService.General.RestResponse;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.MvcResult;
 

@@ -1,4 +1,4 @@
-package com.n11graduationproject.UserReviewService.Enum;
+package com.n11graduationproject.CustomerReviewService.Enum;
 
 public enum Status {
     ACTIVE,PASSIVE

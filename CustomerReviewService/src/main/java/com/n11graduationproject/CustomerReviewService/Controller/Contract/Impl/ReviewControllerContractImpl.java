@@ -1,13 +1,13 @@
-package com.n11graduationproject.UserReviewService.Controller.Contract.Impl;
+package com.n11graduationproject.CustomerReviewService.Controller.Contract.Impl;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.ReviewControllerContract;
-import com.n11graduationproject.UserReviewService.DTO.ReviewDTO;
-import com.n11graduationproject.UserReviewService.Entity.Review;
-import com.n11graduationproject.UserReviewService.Enum.Score;
-import com.n11graduationproject.UserReviewService.Mapper.ReviewMapper;
-import com.n11graduationproject.UserReviewService.Request.ReviewSaveRequest;
-import com.n11graduationproject.UserReviewService.Service.CustomerService;
-import com.n11graduationproject.UserReviewService.Service.ReviewService;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.ReviewControllerContract;
+import com.n11graduationproject.CustomerReviewService.DTO.ReviewDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Review;
+import com.n11graduationproject.CustomerReviewService.Enum.Score;
+import com.n11graduationproject.CustomerReviewService.Mapper.ReviewMapper;
+import com.n11graduationproject.CustomerReviewService.Request.ReviewSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Service.CustomerService;
+import com.n11graduationproject.CustomerReviewService.Service.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

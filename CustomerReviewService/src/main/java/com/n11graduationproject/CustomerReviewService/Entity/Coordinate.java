@@ -1,7 +1,6 @@
-package com.n11graduationproject.UserReviewService.Entity;
+package com.n11graduationproject.CustomerReviewService.Entity;
 
 import jakarta.persistence.Embeddable;
-import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

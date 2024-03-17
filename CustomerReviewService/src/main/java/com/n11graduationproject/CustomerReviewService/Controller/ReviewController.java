@@ -1,9 +1,9 @@
-package com.n11graduationproject.UserReviewService.Controller;
+package com.n11graduationproject.CustomerReviewService.Controller;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.ReviewControllerContract;
-import com.n11graduationproject.UserReviewService.DTO.ReviewDTO;
-import com.n11graduationproject.UserReviewService.General.RestResponse;
-import com.n11graduationproject.UserReviewService.Request.ReviewSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.ReviewControllerContract;
+import com.n11graduationproject.CustomerReviewService.DTO.ReviewDTO;
+import com.n11graduationproject.CustomerReviewService.General.RestResponse;
+import com.n11graduationproject.CustomerReviewService.Request.ReviewSaveRequest;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

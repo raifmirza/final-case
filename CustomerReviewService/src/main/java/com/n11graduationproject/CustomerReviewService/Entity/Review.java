@@ -1,6 +1,6 @@
-package com.n11graduationproject.UserReviewService.Entity;
+package com.n11graduationproject.CustomerReviewService.Entity;
 
-import com.n11graduationproject.UserReviewService.Enum.Score;
+import com.n11graduationproject.CustomerReviewService.Enum.Score;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

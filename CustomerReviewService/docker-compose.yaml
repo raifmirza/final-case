@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    image: 'raifmirza/bootcamp-customerreviewservice:0.0.1-SNAPSHOT'
+    build:
+      context: .
+    container_name: customerreviewservice
+    depends_on:
+      - db
+    environment:
+      - 'SPRING_DATASOURCE_USERNAME=postgres'
+      - 'SPRING_DATASOURCE_PASSWORD=postgres'
+      - 'POSTGRES_PASSWORD=postgres'
+      - 'SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/n11_customer_review'
+    ports:
+      - '8080:8080'
+
+
+  db:
+    image: postgres
+    container_name: postgres-container
+    environment:
+      - 'POSTGRES_USER=postgres'
+      - 'POSTGRES_PASSWORD=postgres'
+      - 'POSTGRES_DB=n11_customer_review'
+    ports:
+      - '5432:5432'

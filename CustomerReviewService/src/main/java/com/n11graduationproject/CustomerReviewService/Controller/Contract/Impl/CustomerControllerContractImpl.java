@@ -1,13 +1,13 @@
-package com.n11graduationproject.UserReviewService.Controller.Contract.Impl;
+package com.n11graduationproject.CustomerReviewService.Controller.Contract.Impl;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.CustomerControllerContract;
-import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
-import com.n11graduationproject.UserReviewService.Entity.Coordinate;
-import com.n11graduationproject.UserReviewService.Entity.Customer;
-import com.n11graduationproject.UserReviewService.Mapper.CustomerMapper;
-import com.n11graduationproject.UserReviewService.Request.CoordinateUpdateRequest;
-import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
-import com.n11graduationproject.UserReviewService.Service.CustomerService;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.CustomerControllerContract;
+import com.n11graduationproject.CustomerReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Coordinate;
+import com.n11graduationproject.CustomerReviewService.Entity.Customer;
+import com.n11graduationproject.CustomerReviewService.Mapper.CustomerMapper;
+import com.n11graduationproject.CustomerReviewService.Request.CoordinateUpdateRequest;
+import com.n11graduationproject.CustomerReviewService.Request.CustomerSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

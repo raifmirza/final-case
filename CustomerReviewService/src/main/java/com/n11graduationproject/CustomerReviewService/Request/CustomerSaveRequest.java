@@ -1,4 +1,4 @@
-package com.n11graduationproject.UserReviewService.Request;
+package com.n11graduationproject.CustomerReviewService.Request;
 
 import jakarta.validation.constraints.*;
 import org.hibernate.validator.constraints.Length;

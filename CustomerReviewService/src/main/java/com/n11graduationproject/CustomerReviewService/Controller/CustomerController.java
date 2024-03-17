@@ -1,11 +1,10 @@
-package com.n11graduationproject.UserReviewService.Controller;
+package com.n11graduationproject.CustomerReviewService.Controller;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.CustomerControllerContract;
-import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
-import com.n11graduationproject.UserReviewService.Entity.Coordinate;
-import com.n11graduationproject.UserReviewService.General.RestResponse;
-import com.n11graduationproject.UserReviewService.Request.CoordinateUpdateRequest;
-import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.CustomerControllerContract;
+import com.n11graduationproject.CustomerReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.CustomerReviewService.General.RestResponse;
+import com.n11graduationproject.CustomerReviewService.Request.CoordinateUpdateRequest;
+import com.n11graduationproject.CustomerReviewService.Request.CustomerSaveRequest;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,10 +1,10 @@
-package com.n11graduationproject.UserReviewService.Mapper;
+package com.n11graduationproject.CustomerReviewService.Mapper;
 
 
-import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
-import com.n11graduationproject.UserReviewService.Entity.Coordinate;
-import com.n11graduationproject.UserReviewService.Entity.Customer;
-import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
+import com.n11graduationproject.CustomerReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Coordinate;
+import com.n11graduationproject.CustomerReviewService.Entity.Customer;
+import com.n11graduationproject.CustomerReviewService.Request.CustomerSaveRequest;
 import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
 

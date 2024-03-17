@@ -1,4 +1,4 @@
-package com.n11graduationproject.UserReviewService;
+package com.n11graduationproject.CustomerReviewService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

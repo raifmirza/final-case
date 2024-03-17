@@ -1,10 +1,8 @@
-package com.n11graduationproject.UserReviewService.General;
+package com.n11graduationproject.CustomerReviewService.General;
 
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.http.ResponseEntity;
 
 import java.time.LocalDateTime;
 

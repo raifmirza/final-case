@@ -1,14 +1,14 @@
-package com.n11graduationproject.UserReviewService.Controller;
+package com.n11graduationproject.CustomerReviewService.Controller;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.Impl.CustomerControllerContractImpl;
-import com.n11graduationproject.UserReviewService.DTO.CustomerDTO;
-import com.n11graduationproject.UserReviewService.Entity.Coordinate;
-import com.n11graduationproject.UserReviewService.Entity.Customer;
-import com.n11graduationproject.UserReviewService.Enum.Status;
-import com.n11graduationproject.UserReviewService.Mapper.CustomerMapper;
-import com.n11graduationproject.UserReviewService.Request.CoordinateUpdateRequest;
-import com.n11graduationproject.UserReviewService.Request.CustomerSaveRequest;
-import com.n11graduationproject.UserReviewService.Service.CustomerService;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.Impl.CustomerControllerContractImpl;
+import com.n11graduationproject.CustomerReviewService.DTO.CustomerDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Coordinate;
+import com.n11graduationproject.CustomerReviewService.Entity.Customer;
+import com.n11graduationproject.CustomerReviewService.Enum.Status;
+import com.n11graduationproject.CustomerReviewService.Mapper.CustomerMapper;
+import com.n11graduationproject.CustomerReviewService.Request.CoordinateUpdateRequest;
+import com.n11graduationproject.CustomerReviewService.Request.CustomerSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Service.CustomerService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

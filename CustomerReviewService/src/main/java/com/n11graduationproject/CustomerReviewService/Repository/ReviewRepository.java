@@ -1,6 +1,6 @@
-package com.n11graduationproject.UserReviewService.Repository;
+package com.n11graduationproject.CustomerReviewService.Repository;
 
-import com.n11graduationproject.UserReviewService.Entity.Review;
+import com.n11graduationproject.CustomerReviewService.Entity.Review;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

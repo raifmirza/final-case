@@ -1,15 +1,14 @@
-package com.n11graduationproject.UserReviewService.Controller;
+package com.n11graduationproject.CustomerReviewService.Controller;
 
-import com.n11graduationproject.UserReviewService.Controller.Contract.Impl.ReviewControllerContractImpl;
-import com.n11graduationproject.UserReviewService.DTO.ReviewDTO;
-import com.n11graduationproject.UserReviewService.Entity.Customer;
-import com.n11graduationproject.UserReviewService.Entity.Review;
-import com.n11graduationproject.UserReviewService.Enum.Score;
-import com.n11graduationproject.UserReviewService.Mapper.ReviewMapper;
-import com.n11graduationproject.UserReviewService.Request.ReviewSaveRequest;
-import com.n11graduationproject.UserReviewService.Service.CustomerService;
-import com.n11graduationproject.UserReviewService.Service.ReviewService;
-import jakarta.persistence.EntityNotFoundException;
+import com.n11graduationproject.CustomerReviewService.Controller.Contract.Impl.ReviewControllerContractImpl;
+import com.n11graduationproject.CustomerReviewService.DTO.ReviewDTO;
+import com.n11graduationproject.CustomerReviewService.Entity.Customer;
+import com.n11graduationproject.CustomerReviewService.Entity.Review;
+import com.n11graduationproject.CustomerReviewService.Enum.Score;
+import com.n11graduationproject.CustomerReviewService.Mapper.ReviewMapper;
+import com.n11graduationproject.CustomerReviewService.Request.ReviewSaveRequest;
+import com.n11graduationproject.CustomerReviewService.Service.CustomerService;
+import com.n11graduationproject.CustomerReviewService.Service.ReviewService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -19,7 +18,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

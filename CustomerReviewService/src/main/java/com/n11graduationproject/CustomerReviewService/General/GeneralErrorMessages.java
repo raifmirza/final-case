@@ -1,4 +1,4 @@
-package com.n11graduationproject.UserReviewService.General;
+package com.n11graduationproject.CustomerReviewService.General;
 
 import java.time.LocalDateTime;
 
